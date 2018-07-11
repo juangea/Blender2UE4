@@ -1,0 +1,615 @@
+Begin Object Class=/Script/Engine.Material Name="MAT_PBR_Base"
+   Begin Object Class=/Script/Engine.MaterialExpressionAdd Name="MaterialExpressionAdd_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionAppendVector Name="MaterialExpressionAppendVector_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFresnel Name="MaterialExpressionFresnel_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_10"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_11"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticBoolParameter Name="MaterialExpressionStaticBoolParameter_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticBoolParameter Name="MaterialExpressionStaticBoolParameter_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticBoolParameter Name="MaterialExpressionStaticBoolParameter_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticBoolParameter Name="MaterialExpressionStaticBoolParameter_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticBoolParameter Name="MaterialExpressionStaticBoolParameter_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticBoolParameter Name="MaterialExpressionStaticBoolParameter_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticBoolParameter Name="MaterialExpressionStaticBoolParameter_6"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticBoolParameter Name="MaterialExpressionStaticBoolParameter_7"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticBoolParameter Name="MaterialExpressionStaticBoolParameter_8"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticSwitch Name="MaterialExpressionStaticSwitch_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticSwitch Name="MaterialExpressionStaticSwitch_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticSwitch Name="MaterialExpressionStaticSwitch_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticSwitch Name="MaterialExpressionStaticSwitch_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticSwitch Name="MaterialExpressionStaticSwitch_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticSwitch Name="MaterialExpressionStaticSwitch_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticSwitch Name="MaterialExpressionStaticSwitch_6"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticSwitch Name="MaterialExpressionStaticSwitch_7"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticSwitch Name="MaterialExpressionStaticSwitch_8"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticSwitchParameter Name="MaterialExpressionStaticSwitchParameter_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureCoordinate Name="MaterialExpressionTextureCoordinate_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureObjectParameter Name="MaterialExpressionTextureObjectParameter_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSampleParameter2D Name="MaterialExpressionTextureSampleParameter2D_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSampleParameter2D Name="MaterialExpressionTextureSampleParameter2D_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSampleParameter2D Name="MaterialExpressionTextureSampleParameter2D_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSampleParameter2D Name="MaterialExpressionTextureSampleParameter2D_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSampleParameter2D Name="MaterialExpressionTextureSampleParameter2D_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_5"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionAdd_0"
+      A=(Expression=MaterialExpressionVectorParameter'"MAT_PBR_Base:MaterialExpressionVectorParameter_5"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      B=(Expression=MaterialExpressionTextureSampleParameter2D'"MAT_PBR_Base:MaterialExpressionTextureSampleParameter2D_0"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      MaterialExpressionEditorX=-832
+      MaterialExpressionEditorY=-352
+      MaterialExpressionGuid=C658F16D4CCACA7C8D36379267B6EE8E
+      Material=Material'"MAT_PBR_Base"'
+   End Object
+   Begin Object Name="MaterialExpressionAppendVector_0"
+      A=(Expression=MaterialExpressionScalarParameter'"MAT_PBR_Base:MaterialExpressionScalarParameter_10"')
+      B=(Expression=MaterialExpressionScalarParameter'"MAT_PBR_Base:MaterialExpressionScalarParameter_11"')
+      MaterialExpressionEditorX=-2192
+      MaterialExpressionEditorY=816
+      MaterialExpressionGuid=CA739FDD4DCA47DCE0324AACC6395364
+      Material=Material'"MAT_PBR_Base"'
+   End Object
+   Begin Object Name="MaterialExpressionFresnel_0"
+      ExponentIn=(Expression=MaterialExpressionScalarParameter'"MAT_PBR_Base:MaterialExpressionScalarParameter_0"')
+      MaterialExpressionEditorX=-688
+      MaterialExpressionEditorY=-256
+      MaterialExpressionGuid=3EF214DD4AFDCB6CFBBB39AAA28F6164
+      Material=Material'"MAT_PBR_Base"'
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_0"
+      A=(Expression=MaterialExpressionStaticSwitch'"MAT_PBR_Base:MaterialExpressionStaticSwitch_7"')
+      B=(Expression=MaterialExpressionAdd'"MAT_PBR_Base:MaterialExpressionAdd_0"')
+      Alpha=(Expression=MaterialExpressionFresnel'"MAT_PBR_Base:MaterialExpressionFresnel_0"')
+      MaterialExpressionEditorX=-432
+      MaterialExpressionEditorY=-416
+      MaterialExpressionGuid=1803FD2C4DF45315665F39B29D06FBD7
+      Material=Material'"MAT_PBR_Base"'
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_0"
+      MaterialFunction=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions03/Procedurals/NormalFromHeightmap.NormalFromHeightmap"'
+      FunctionInputs(0)=(ExpressionInputId=D18B76DA498ACF9019832CA057F28DF9,Input=(Expression=MaterialExpressionTextureObjectParameter'"MAT_PBR_Base:MaterialExpressionTextureObjectParameter_1"',InputName="Height Map"))
+      FunctionInputs(1)=(ExpressionInputId=B29BEDF846981D4D3E77569F196580E9,Input=(Expression=MaterialExpressionScalarParameter'"MAT_PBR_Base:MaterialExpressionScalarParameter_1"',InputName="Normal Map Intensity"))
+      FunctionInputs(2)=(ExpressionInputId=869F13D34EC0F9820DE2FF939EAFE52E,Input=(OutputIndex=-1,InputName="Height Map UV Offset"))
+      FunctionInputs(3)=(ExpressionInputId=030390874A5513D2A2E5298EE2924C44,Input=(OutputIndex=-1,InputName="Coordinates"))
+      FunctionInputs(4)=(ExpressionInputId=91D2AE2C4FDB93F22CC486A515E427D4,Input=(OutputIndex=-1,InputName="Height Map Channel Selector"))
+      FunctionOutputs(0)=(ExpressionOutputId=E286AA1C4D326C3C97D7D98AA7273BEF,Output=(OutputName="Result"))
+      MaterialExpressionEditorX=-912
+      MaterialExpressionEditorY=2304
+      MaterialExpressionGuid=201D42E341B009A2D14375A9CADBAB5D
+      Material=Material'"MAT_PBR_Base"'
+      Outputs(0)=(OutputName="Result")
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_0"
+      A=(Expression=MaterialExpressionVectorParameter'"MAT_PBR_Base:MaterialExpressionVectorParameter_0"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      B=(Expression=MaterialExpressionTextureSampleParameter2D'"MAT_PBR_Base:MaterialExpressionTextureSampleParameter2D_0"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      MaterialExpressionEditorX=-864
+      MaterialExpressionEditorY=-112
+      MaterialExpressionGuid=7BBA90844AC3F0D0383870BDAFA55A04
+      Material=Material'"MAT_PBR_Base"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_1"
+      A=(Expression=MaterialExpressionVectorParameter'"MAT_PBR_Base:MaterialExpressionVectorParameter_1"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      B=(Expression=MaterialExpressionTextureSampleParameter2D'"MAT_PBR_Base:MaterialExpressionTextureSampleParameter2D_1"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      MaterialExpressionEditorX=-864
+      MaterialExpressionEditorY=400
+      MaterialExpressionGuid=7BBA90844AC3F0D0383870BDAFA55A04
+      Material=Material'"MAT_PBR_Base"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_2"
+      A=(Expression=MaterialExpressionVectorParameter'"MAT_PBR_Base:MaterialExpressionVectorParameter_2"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      B=(Expression=MaterialExpressionTextureSampleParameter2D'"MAT_PBR_Base:MaterialExpressionTextureSampleParameter2D_4"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      MaterialExpressionEditorX=-992
+      MaterialExpressionEditorY=976
+      MaterialExpressionGuid=7BBA90844AC3F0D0383870BDAFA55A04
+      Material=Material'"MAT_PBR_Base"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_3"
+      A=(Expression=MaterialExpressionVectorParameter'"MAT_PBR_Base:MaterialExpressionVectorParameter_3"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      B=(Expression=MaterialExpressionTextureSampleParameter2D'"MAT_PBR_Base:MaterialExpressionTextureSampleParameter2D_5"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      MaterialExpressionEditorX=-1040
+      MaterialExpressionEditorY=1440
+      MaterialExpressionGuid=7BBA90844AC3F0D0383870BDAFA55A04
+      Material=Material'"MAT_PBR_Base"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_4"
+      A=(Expression=MaterialExpressionTextureSampleParameter2D'"MAT_PBR_Base:MaterialExpressionTextureSampleParameter2D_2"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      B=(Expression=MaterialExpressionVectorParameter'"MAT_PBR_Base:MaterialExpressionVectorParameter_4"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      MaterialExpressionEditorX=-1072
+      MaterialExpressionEditorY=1776
+      MaterialExpressionGuid=6E72A95D4770E33667AD7D938898296F
+      Material=Material'"MAT_PBR_Base"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_5"
+      A=(Expression=MaterialExpressionTextureCoordinate'"MAT_PBR_Base:MaterialExpressionTextureCoordinate_0"')
+      B=(Expression=MaterialExpressionAppendVector'"MAT_PBR_Base:MaterialExpressionAppendVector_0"')
+      MaterialExpressionEditorX=-1984
+      MaterialExpressionEditorY=736
+      MaterialExpressionGuid=B752A1B344EFCE72F60ECBAD6549260A
+      Material=Material'"MAT_PBR_Base"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_0"
+      DefaultValue=1.000000
+      ParameterName="Fresnel_Power"
+      ExpressionGUID=9C91BED24DB51530C9E70E96F28797E4
+      MaterialExpressionEditorX=-896
+      MaterialExpressionEditorY=-224
+      MaterialExpressionGuid=1709088543229F3C15A77E908FE705E5
+      Material=Material'"MAT_PBR_Base"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_1"
+      SliderMax=100.000000
+      ParameterName="B_Mult"
+      ExpressionGUID=26F3B35C4D8DF47C7710F2AAC0A3345F
+      MaterialExpressionEditorX=-1168
+      MaterialExpressionEditorY=2432
+      MaterialExpressionGuid=D0295112458AFDD842A7058E2FE49B5A
+      Material=Material'"MAT_PBR_Base"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_10"
+      DefaultValue=1.000000
+      ParameterName="Tile_X"
+      ExpressionGUID=4C418BF2466A2239C8D0CAA2B83B58BF
+      MaterialExpressionEditorX=-2368
+      MaterialExpressionEditorY=832
+      MaterialExpressionGuid=0236F52A431934BCCF8E28B571ED6E1F
+      Material=Material'"MAT_PBR_Base"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_11"
+      DefaultValue=1.000000
+      ParameterName="Tile_Y"
+      ExpressionGUID=DD7A02664FEA43F8F8D7F0A0322081A9
+      MaterialExpressionEditorX=-2352
+      MaterialExpressionEditorY=944
+      MaterialExpressionGuid=0236F52A431934BCCF8E28B571ED6E1F
+      Material=Material'"MAT_PBR_Base"'
+   End Object
+   Begin Object Name="MaterialExpressionStaticBoolParameter_0"
+      ParameterName="Use_C_Tint"
+      ExpressionGUID=970C5B184FA48EE92A0A839F87405D2C
+      Group="Bool"
+      MaterialExpressionEditorX=-960
+      MaterialExpressionEditorY=128
+      MaterialExpressionGuid=7574B5B248D95AB745C9A984B81D4EFA
+      Material=Material'"MAT_PBR_Base"'
+   End Object
+   Begin Object Name="MaterialExpressionStaticBoolParameter_1"
+      DefaultValue=True
+      ParameterName="Use_M_Tint"
+      ExpressionGUID=349A71954041C273046620ADACCB92FA
+      Group="Bool"
+      MaterialExpressionEditorX=-944
+      MaterialExpressionEditorY=688
+      MaterialExpressionGuid=7574B5B248D95AB745C9A984B81D4EFA
+      Material=Material'"MAT_PBR_Base"'
+   End Object
+   Begin Object Name="MaterialExpressionStaticBoolParameter_2"
+      ParameterName="Use_S_Tint"
+      ExpressionGUID=4DB3C6F64AE3FAFA696E2EB97A5AC5DC
+      Group="Bool"
+      MaterialExpressionEditorX=-1024
+      MaterialExpressionEditorY=1216
+      MaterialExpressionGuid=7574B5B248D95AB745C9A984B81D4EFA
+      Material=Material'"MAT_PBR_Base"'
+   End Object
+   Begin Object Name="MaterialExpressionStaticBoolParameter_3"
+      ParameterName="Use_R_Tint"
+      ExpressionGUID=B60B8FA64D26CAB06729D0BF1D0F8BAF
+      Group="Bool"
+      MaterialExpressionEditorX=-1072
+      MaterialExpressionEditorY=1680
+      MaterialExpressionGuid=7574B5B248D95AB745C9A984B81D4EFA
+      Material=Material'"MAT_PBR_Base"'
+   End Object
+   Begin Object Name="MaterialExpressionStaticBoolParameter_4"
+      ParameterName="Use_N or B"
+      ExpressionGUID=10A0B7174F2B02347F32B09938A28F4A
+      Group="Bool"
+      MaterialExpressionEditorX=-816
+      MaterialExpressionEditorY=2496
+      MaterialExpressionGuid=7574B5B248D95AB745C9A984B81D4EFA
+      Material=Material'"MAT_PBR_Base"'
+   End Object
+   Begin Object Name="MaterialExpressionStaticBoolParameter_5"
+      ParameterName="Use_M_Color_Only"
+      ExpressionGUID=79E38DFF4B015921D0B98E8978E0F5B3
+      Group="Bool"
+      MaterialExpressionEditorX=-688
+      MaterialExpressionEditorY=720
+      MaterialExpressionGuid=7574B5B248D95AB745C9A984B81D4EFA
+      Material=Material'"MAT_PBR_Base"'
+   End Object
+   Begin Object Name="MaterialExpressionStaticBoolParameter_6"
+      ParameterName="Use_S_Color_Only"
+      ExpressionGUID=EF1A893F4C477AEBC578ADA8011B1E6E
+      Group="Bool"
+      MaterialExpressionEditorX=-688
+      MaterialExpressionEditorY=1168
+      MaterialExpressionGuid=7574B5B248D95AB745C9A984B81D4EFA
+      Material=Material'"MAT_PBR_Base"'
+   End Object
+   Begin Object Name="MaterialExpressionStaticBoolParameter_7"
+      ParameterName="Use_C_Color_Only"
+      ExpressionGUID=60BAA0CF4441B9734C4BB6B0106E3146
+      Group="Bool"
+      MaterialExpressionEditorX=-688
+      MaterialExpressionEditorY=288
+      MaterialExpressionGuid=7574B5B248D95AB745C9A984B81D4EFA
+      Material=Material'"MAT_PBR_Base"'
+   End Object
+   Begin Object Name="MaterialExpressionStaticBoolParameter_8"
+      ParameterName="Use_R_Color_Only"
+      ExpressionGUID=BE8B353E41E6FD730C7165912905F99D
+      Group="Bool"
+      MaterialExpressionEditorX=-688
+      MaterialExpressionEditorY=1552
+      MaterialExpressionGuid=7574B5B248D95AB745C9A984B81D4EFA
+      Material=Material'"MAT_PBR_Base"'
+   End Object
+   Begin Object Name="MaterialExpressionStaticSwitch_0"
+      A=(Expression=MaterialExpressionMultiply'"MAT_PBR_Base:MaterialExpressionMultiply_0"')
+      B=(Expression=MaterialExpressionTextureSampleParameter2D'"MAT_PBR_Base:MaterialExpressionTextureSampleParameter2D_0"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      Value=(Expression=MaterialExpressionStaticBoolParameter'"MAT_PBR_Base:MaterialExpressionStaticBoolParameter_0"')
+      MaterialExpressionEditorX=-608
+      MaterialExpressionEditorY=-80
+      MaterialExpressionGuid=CCF754B14DC2419171097BB0A6118ECA
+      Material=Material'"MAT_PBR_Base"'
+   End Object
+   Begin Object Name="MaterialExpressionStaticSwitch_1"
+      A=(Expression=MaterialExpressionMultiply'"MAT_PBR_Base:MaterialExpressionMultiply_1"')
+      B=(Expression=MaterialExpressionTextureSampleParameter2D'"MAT_PBR_Base:MaterialExpressionTextureSampleParameter2D_1"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      Value=(Expression=MaterialExpressionStaticBoolParameter'"MAT_PBR_Base:MaterialExpressionStaticBoolParameter_1"')
+      MaterialExpressionEditorX=-608
+      MaterialExpressionEditorY=448
+      MaterialExpressionGuid=CCF754B14DC2419171097BB0A6118ECA
+      Material=Material'"MAT_PBR_Base"'
+   End Object
+   Begin Object Name="MaterialExpressionStaticSwitch_2"
+      A=(Expression=MaterialExpressionMultiply'"MAT_PBR_Base:MaterialExpressionMultiply_2"')
+      B=(Expression=MaterialExpressionTextureSampleParameter2D'"MAT_PBR_Base:MaterialExpressionTextureSampleParameter2D_4"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      Value=(Expression=MaterialExpressionStaticBoolParameter'"MAT_PBR_Base:MaterialExpressionStaticBoolParameter_2"')
+      MaterialExpressionEditorX=-608
+      MaterialExpressionEditorY=960
+      MaterialExpressionGuid=CCF754B14DC2419171097BB0A6118ECA
+      Material=Material'"MAT_PBR_Base"'
+   End Object
+   Begin Object Name="MaterialExpressionStaticSwitch_3"
+      A=(Expression=MaterialExpressionMultiply'"MAT_PBR_Base:MaterialExpressionMultiply_3"')
+      B=(Expression=MaterialExpressionTextureSampleParameter2D'"MAT_PBR_Base:MaterialExpressionTextureSampleParameter2D_5"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      Value=(Expression=MaterialExpressionStaticBoolParameter'"MAT_PBR_Base:MaterialExpressionStaticBoolParameter_3"')
+      MaterialExpressionEditorX=-608
+      MaterialExpressionEditorY=1408
+      MaterialExpressionGuid=CCF754B14DC2419171097BB0A6118ECA
+      Material=Material'"MAT_PBR_Base"'
+   End Object
+   Begin Object Name="MaterialExpressionStaticSwitch_4"
+      A=(Expression=MaterialExpressionMultiply'"MAT_PBR_Base:MaterialExpressionMultiply_4"')
+      B=(Expression=MaterialExpressionMaterialFunctionCall'"MAT_PBR_Base:MaterialExpressionMaterialFunctionCall_0"')
+      Value=(Expression=MaterialExpressionStaticBoolParameter'"MAT_PBR_Base:MaterialExpressionStaticBoolParameter_4"')
+      MaterialExpressionEditorX=-352
+      MaterialExpressionEditorY=1776
+      MaterialExpressionGuid=CCF754B14DC2419171097BB0A6118ECA
+      Material=Material'"MAT_PBR_Base"'
+   End Object
+   Begin Object Name="MaterialExpressionStaticSwitch_5"
+      A=(Expression=MaterialExpressionVectorParameter'"MAT_PBR_Base:MaterialExpressionVectorParameter_1"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      B=(Expression=MaterialExpressionStaticSwitch'"MAT_PBR_Base:MaterialExpressionStaticSwitch_1"')
+      Value=(Expression=MaterialExpressionStaticBoolParameter'"MAT_PBR_Base:MaterialExpressionStaticBoolParameter_5"')
+      MaterialExpressionEditorX=-352
+      MaterialExpressionEditorY=624
+      MaterialExpressionGuid=CCF754B14DC2419171097BB0A6118ECA
+      Material=Material'"MAT_PBR_Base"'
+   End Object
+   Begin Object Name="MaterialExpressionStaticSwitch_6"
+      A=(Expression=MaterialExpressionVectorParameter'"MAT_PBR_Base:MaterialExpressionVectorParameter_2"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      B=(Expression=MaterialExpressionStaticSwitch'"MAT_PBR_Base:MaterialExpressionStaticSwitch_2"')
+      Value=(Expression=MaterialExpressionStaticBoolParameter'"MAT_PBR_Base:MaterialExpressionStaticBoolParameter_6"')
+      MaterialExpressionEditorX=-352
+      MaterialExpressionEditorY=912
+      MaterialExpressionGuid=CCF754B14DC2419171097BB0A6118ECA
+      Material=Material'"MAT_PBR_Base"'
+   End Object
+   Begin Object Name="MaterialExpressionStaticSwitch_7"
+      A=(Expression=MaterialExpressionVectorParameter'"MAT_PBR_Base:MaterialExpressionVectorParameter_0"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      B=(Expression=MaterialExpressionStaticSwitch'"MAT_PBR_Base:MaterialExpressionStaticSwitch_0"')
+      Value=(Expression=MaterialExpressionStaticBoolParameter'"MAT_PBR_Base:MaterialExpressionStaticBoolParameter_7"')
+      MaterialExpressionEditorX=-352
+      MaterialExpressionEditorY=112
+      MaterialExpressionGuid=CCF754B14DC2419171097BB0A6118ECA
+      Material=Material'"MAT_PBR_Base"'
+   End Object
+   Begin Object Name="MaterialExpressionStaticSwitch_8"
+      A=(Expression=MaterialExpressionVectorParameter'"MAT_PBR_Base:MaterialExpressionVectorParameter_3"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      B=(Expression=MaterialExpressionStaticSwitch'"MAT_PBR_Base:MaterialExpressionStaticSwitch_3"')
+      Value=(Expression=MaterialExpressionStaticBoolParameter'"MAT_PBR_Base:MaterialExpressionStaticBoolParameter_8"')
+      MaterialExpressionEditorX=-352
+      MaterialExpressionEditorY=1264
+      MaterialExpressionGuid=CCF754B14DC2419171097BB0A6118ECA
+      Material=Material'"MAT_PBR_Base"'
+   End Object
+   Begin Object Name="MaterialExpressionStaticSwitchParameter_0"
+      A=(Expression=MaterialExpressionLinearInterpolate'"MAT_PBR_Base:MaterialExpressionLinearInterpolate_0"')
+      B=(Expression=MaterialExpressionStaticSwitch'"MAT_PBR_Base:MaterialExpressionStaticSwitch_7"')
+      ParameterName="Enable_Fresnel"
+      ExpressionGUID=EEA677F64AFA4892E3F5C39FF3E33454
+      MaterialExpressionEditorX=-77
+      MaterialExpressionEditorY=56
+      MaterialExpressionGuid=A83D70904ABD6CB8E27D77AFD94FFF6D
+      Material=Material'"MAT_PBR_Base"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureCoordinate_0"
+      MaterialExpressionEditorX=-2160
+      MaterialExpressionEditorY=640
+      MaterialExpressionGuid=4BDBC6884D453C081AA2BAB906A2007D
+      Material=Material'"MAT_PBR_Base"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureObjectParameter_1"
+      ParameterName="Bump_TX"
+      ExpressionGUID=E1955F3E423F0945657629ADE1B7017B
+      Group="TX"
+      MaterialExpressionEditorX=-1200
+      MaterialExpressionEditorY=2256
+      MaterialExpressionGuid=3ACE49534B0EEE058B7762BFF53431AD
+      Material=Material'"MAT_PBR_Base"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSampleParameter2D_0"
+      ParameterName="Color_TX"
+      ExpressionGUID=4F54B7544F2D01A5BE771298F8628B8E
+      Group="TX"
+      Coordinates=(Expression=MaterialExpressionMultiply'"MAT_PBR_Base:MaterialExpressionMultiply_5"')
+      MaterialExpressionEditorX=-1424
+      MaterialExpressionEditorY=32
+      MaterialExpressionGuid=338BD9CF4DF021D063EB54BCC4CF3D23
+      Material=Material'"MAT_PBR_Base"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSampleParameter2D_1"
+      ParameterName="Metallic_TX"
+      ExpressionGUID=9AC28354415337830DC69E89BFAC4AC3
+      Group="TX"
+      Coordinates=(Expression=MaterialExpressionMultiply'"MAT_PBR_Base:MaterialExpressionMultiply_5"')
+      MaterialExpressionEditorX=-1424
+      MaterialExpressionEditorY=592
+      MaterialExpressionGuid=338BD9CF4DF021D063EB54BCC4CF3D23
+      Material=Material'"MAT_PBR_Base"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSampleParameter2D_2"
+      ParameterName="Normal_TX"
+      ExpressionGUID=1D501F8643A987FDEDFF0D94C73F6CB8
+      Group="TX"
+      Coordinates=(Expression=MaterialExpressionMultiply'"MAT_PBR_Base:MaterialExpressionMultiply_5"')
+      Texture=Texture2D'"/Engine/EngineMaterials/DefaultNormal.DefaultNormal"'
+      SamplerType=SAMPLERTYPE_Normal
+      MaterialExpressionEditorX=-1424
+      MaterialExpressionEditorY=1760
+      MaterialExpressionGuid=338BD9CF4DF021D063EB54BCC4CF3D23
+      Material=Material'"MAT_PBR_Base"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSampleParameter2D_4"
+      ParameterName="Specular_TX"
+      ExpressionGUID=3B26060344A006C03DF24A8D20BF5367
+      Group="TX"
+      Coordinates=(Expression=MaterialExpressionMultiply'"MAT_PBR_Base:MaterialExpressionMultiply_5"')
+      MaterialExpressionEditorX=-1424
+      MaterialExpressionEditorY=1088
+      MaterialExpressionGuid=338BD9CF4DF021D063EB54BCC4CF3D23
+      Material=Material'"MAT_PBR_Base"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSampleParameter2D_5"
+      ParameterName="Roughness_TX"
+      ExpressionGUID=16982BB94ECB13D4FD796393E05C4897
+      Group="TX"
+      Coordinates=(Expression=MaterialExpressionMultiply'"MAT_PBR_Base:MaterialExpressionMultiply_5"')
+      MaterialExpressionEditorX=-1424
+      MaterialExpressionEditorY=1568
+      MaterialExpressionGuid=338BD9CF4DF021D063EB54BCC4CF3D23
+      Material=Material'"MAT_PBR_Base"'
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_0"
+      ParameterName="Color_CL"
+      ExpressionGUID=41571C134801FB4D31720EADE2CD0375
+      Group="Tints"
+      MaterialExpressionEditorX=-1424
+      MaterialExpressionEditorY=-160
+      MaterialExpressionGuid=A6AF3D0E484E6DC3C9953390749B94EC
+      Material=Material'"MAT_PBR_Base"'
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_1"
+      ParameterName="Metallic_CL"
+      ExpressionGUID=EB8DD92843D2A4BB09C201AE5CBDABA6
+      Group="Tints"
+      MaterialExpressionEditorX=-1424
+      MaterialExpressionEditorY=400
+      MaterialExpressionGuid=A6AF3D0E484E6DC3C9953390749B94EC
+      Material=Material'"MAT_PBR_Base"'
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_2"
+      DefaultValue=(R=1.000000,G=1.000000,B=1.000000,A=0.000000)
+      ParameterName="Specular_CL"
+      ExpressionGUID=1188563D4545D9A366B1728052E0ABC9
+      Group="Tints"
+      MaterialExpressionEditorX=-1424
+      MaterialExpressionEditorY=896
+      MaterialExpressionGuid=A6AF3D0E484E6DC3C9953390749B94EC
+      Material=Material'"MAT_PBR_Base"'
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_3"
+      DefaultValue=(R=1.000000,G=1.000000,B=1.000000,A=0.000000)
+      ParameterName="Roughness_CL"
+      ExpressionGUID=EB7D33574E4304D1C94ED498590CFA51
+      Group="Tints"
+      MaterialExpressionEditorX=-1424
+      MaterialExpressionEditorY=1376
+      MaterialExpressionGuid=A6AF3D0E484E6DC3C9953390749B94EC
+      Material=Material'"MAT_PBR_Base"'
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_4"
+      DefaultValue=(R=1.000000,G=1.000000,B=1.000000,A=0.000000)
+      ParameterName="Normal_Multiplier"
+      ExpressionGUID=5618F13649AA3C5F3F0AA889A6D25C65
+      Group="Tints"
+      MaterialExpressionEditorX=-1424
+      MaterialExpressionEditorY=1952
+      MaterialExpressionGuid=BD6EABAD4990C264903BB99892630C2C
+      Material=Material'"MAT_PBR_Base"'
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_5"
+      DefaultValue=(R=1.000000,G=1.000000,B=1.000000,A=0.000000)
+      ParameterName="Fresnel_CL"
+      ExpressionGUID=633501FC4A9AA269418CB8B4CC9E1DFD
+      Group="Tints"
+      MaterialExpressionEditorX=-1296
+      MaterialExpressionEditorY=-592
+      MaterialExpressionGuid=A6AF3D0E484E6DC3C9953390749B94EC
+      Material=Material'"MAT_PBR_Base"'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   BaseColor=(Expression=MaterialExpressionStaticSwitchParameter'"MaterialExpressionStaticSwitchParameter_0"')
+   Metallic=(Expression=MaterialExpressionStaticSwitch'"MaterialExpressionStaticSwitch_5"')
+   Specular=(Expression=MaterialExpressionStaticSwitch'"MaterialExpressionStaticSwitch_6"')
+   Roughness=(Expression=MaterialExpressionStaticSwitch'"MaterialExpressionStaticSwitch_8"')
+   Normal=(Expression=MaterialExpressionStaticSwitch'"MaterialExpressionStaticSwitch_4"')
+   bUsedWithStaticLighting=True
+   bUsePlanarForwardReflections=True
+   EditorX=208
+   EditorY=608
+   Expressions(0)=MaterialExpressionStaticSwitch'"MaterialExpressionStaticSwitch_7"'
+   Expressions(1)=MaterialExpressionStaticSwitch'"MaterialExpressionStaticSwitch_5"'
+   Expressions(2)=MaterialExpressionStaticSwitch'"MaterialExpressionStaticSwitch_6"'
+   Expressions(3)=MaterialExpressionStaticSwitch'"MaterialExpressionStaticSwitch_8"'
+   Expressions(4)=MaterialExpressionStaticSwitch'"MaterialExpressionStaticSwitch_4"'
+   Expressions(5)=MaterialExpressionStaticSwitch'"MaterialExpressionStaticSwitch_0"'
+   Expressions(6)=MaterialExpressionStaticSwitch'"MaterialExpressionStaticSwitch_1"'
+   Expressions(7)=MaterialExpressionStaticSwitch'"MaterialExpressionStaticSwitch_2"'
+   Expressions(8)=MaterialExpressionStaticSwitch'"MaterialExpressionStaticSwitch_3"'
+   Expressions(9)=MaterialExpressionTextureSampleParameter2D'"MaterialExpressionTextureSampleParameter2D_0"'
+   Expressions(10)=MaterialExpressionTextureSampleParameter2D'"MaterialExpressionTextureSampleParameter2D_1"'
+   Expressions(11)=MaterialExpressionStaticBoolParameter'"MaterialExpressionStaticBoolParameter_0"'
+   Expressions(12)=MaterialExpressionVectorParameter'"MaterialExpressionVectorParameter_0"'
+   Expressions(13)=MaterialExpressionMultiply'"MaterialExpressionMultiply_0"'
+   Expressions(14)=MaterialExpressionVectorParameter'"MaterialExpressionVectorParameter_1"'
+   Expressions(15)=MaterialExpressionMultiply'"MaterialExpressionMultiply_1"'
+   Expressions(16)=MaterialExpressionStaticBoolParameter'"MaterialExpressionStaticBoolParameter_1"'
+   Expressions(17)=MaterialExpressionTextureSampleParameter2D'"MaterialExpressionTextureSampleParameter2D_4"'
+   Expressions(18)=MaterialExpressionVectorParameter'"MaterialExpressionVectorParameter_2"'
+   Expressions(19)=MaterialExpressionMultiply'"MaterialExpressionMultiply_2"'
+   Expressions(20)=MaterialExpressionStaticBoolParameter'"MaterialExpressionStaticBoolParameter_2"'
+   Expressions(21)=MaterialExpressionTextureSampleParameter2D'"MaterialExpressionTextureSampleParameter2D_5"'
+   Expressions(22)=MaterialExpressionVectorParameter'"MaterialExpressionVectorParameter_3"'
+   Expressions(23)=MaterialExpressionMultiply'"MaterialExpressionMultiply_3"'
+   Expressions(24)=MaterialExpressionStaticBoolParameter'"MaterialExpressionStaticBoolParameter_3"'
+   Expressions(25)=MaterialExpressionTextureSampleParameter2D'"MaterialExpressionTextureSampleParameter2D_2"'
+   Expressions(26)=MaterialExpressionStaticBoolParameter'"MaterialExpressionStaticBoolParameter_4"'
+   Expressions(27)=MaterialExpressionStaticBoolParameter'"MaterialExpressionStaticBoolParameter_5"'
+   Expressions(28)=MaterialExpressionStaticBoolParameter'"MaterialExpressionStaticBoolParameter_6"'
+   Expressions(29)=MaterialExpressionStaticBoolParameter'"MaterialExpressionStaticBoolParameter_7"'
+   Expressions(30)=MaterialExpressionStaticBoolParameter'"MaterialExpressionStaticBoolParameter_8"'
+   Expressions(31)=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_0"'
+   Expressions(32)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_1"'
+   Expressions(33)=MaterialExpressionTextureObjectParameter'"MaterialExpressionTextureObjectParameter_1"'
+   Expressions(34)=MaterialExpressionMultiply'"MaterialExpressionMultiply_4"'
+   Expressions(35)=MaterialExpressionVectorParameter'"MaterialExpressionVectorParameter_4"'
+   Expressions(36)=MaterialExpressionTextureCoordinate'"MaterialExpressionTextureCoordinate_0"'
+   Expressions(37)=MaterialExpressionMultiply'"MaterialExpressionMultiply_5"'
+   Expressions(38)=MaterialExpressionAppendVector'"MaterialExpressionAppendVector_0"'
+   Expressions(39)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_10"'
+   Expressions(40)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_11"'
+   Expressions(41)=MaterialExpressionStaticSwitchParameter'"MaterialExpressionStaticSwitchParameter_0"'
+   Expressions(42)=MaterialExpressionVectorParameter'"MaterialExpressionVectorParameter_5"'
+   Expressions(43)=MaterialExpressionAdd'"MaterialExpressionAdd_0"'
+   Expressions(44)=MaterialExpressionFresnel'"MaterialExpressionFresnel_0"'
+   Expressions(45)=MaterialExpressionLinearInterpolate'"MaterialExpressionLinearInterpolate_0"'
+   Expressions(46)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_0"'
+   ParameterGroupData(0)=(GroupName="TX")
+   ParameterGroupData(1)=(GroupName="TX")
+   ParameterGroupData(2)=(GroupName="Bool")
+   ParameterGroupData(3)=(GroupName="Tints")
+   ParameterGroupData(4)=(GroupName="Tints")
+   ParameterGroupData(5)=(GroupName="Bool")
+   ParameterGroupData(6)=(GroupName="TX")
+   ParameterGroupData(7)=(GroupName="Tints")
+   ParameterGroupData(8)=(GroupName="Bool")
+   ParameterGroupData(9)=(GroupName="TX")
+   ParameterGroupData(10)=(GroupName="Tints")
+   ParameterGroupData(11)=(GroupName="Bool")
+   ParameterGroupData(12)=(GroupName="TX")
+   ParameterGroupData(13)=(GroupName="Bool")
+   ParameterGroupData(14)=(GroupName="Bool")
+   ParameterGroupData(15)=(GroupName="Bool")
+   ParameterGroupData(16)=(GroupName="Bool")
+   ParameterGroupData(17)=(GroupName="Bool")
+   ParameterGroupData(18)=(GroupName="None")
+   ParameterGroupData(19)=(GroupName="TX")
+   ParameterGroupData(20)=(GroupName="Tints")
+   ParameterGroupData(21)=(GroupName="None")
+   ParameterGroupData(22)=(GroupName="None")
+   ParameterGroupData(23)=(GroupName="None")
+   ParameterGroupData(24)=(GroupName="Tints")
+   ParameterGroupData(25)=(GroupName="None")
+   MaterialFunctionInfos(0)=(StateId=4DBA499D4798490F6672E7A05A808288,Function=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions03/Procedurals/NormalFromHeightmap.NormalFromHeightmap"')
+   bCanMaskedBeAssumedOpaque=True
+   StateId=27D4330647E07EDB1BD6859DB5303D17
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=941D507B4C4AC1C67A80248A53A923D9
+End Object
